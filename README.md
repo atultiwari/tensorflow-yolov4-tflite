@@ -1,4 +1,4 @@
-# Note - Originally posted at - [https://github.com/nagi1995/tensorflow-yolov4-tflite] (https://github.com/nagi1995/tensorflow-yolov4-tflite)
+# Note - Originally posted at - [https://github.com/nagi1995/tensorflow-yolov4-tflite](https://github.com/nagi1995/tensorflow-yolov4-tflite)
 
 # Convert Darknet YOLOv4 or YOLOv3 to TensorFlow Model
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
