@@ -1,3 +1,5 @@
+# Note - Originally posted at - [https://github.com/nagi1995/tensorflow-yolov4-tflite] (https://github.com/nagi1995/tensorflow-yolov4-tflite)
+
 # Convert Darknet YOLOv4 or YOLOv3 to TensorFlow Model
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
@@ -55,7 +57,7 @@ pip install -r requirements-gpu.txt
 ```
 **Note:** If installing GPU version with Pip, you need to install CUDA and cuDNN in your system. You can find the tutorial for Windows [here](https://www.youtube.com/watch?v=PlW9zAg4cx8).
 # Performance
-<p align="center"><img src="data/performance.png" width="1024"\></p>
+<p align="center"><img src="#" width="1024"\></p>
 
 
 # Convert YOLOv4 to TensorFlow
@@ -82,7 +84,7 @@ python detect-tiles.py
 #### Output
 
 ##### Yolov4 original weight
-<p align="center"><img src="result.jpg" width="1024"\></p>
+<p align="center"></p>
 
 # Convert to tflite
 
@@ -106,20 +108,12 @@ python convert_tflite.py --weights ./checkpoints/save/folder/name --output ./che
 # Run demo tflite model
 python detect-tiles-lite.py 
 ```
-##### Yolov4 tflite fp16 weight
-<p align="center"><img src="result-fp16.jpg" width="640"\></p>
 
 # People who don't want to compromise their data can download this repo and create a virtual environment shown above and run
 ```bash
 python gui.py
 ```
-# Demo [video](https://player.vimeo.com/video/625296082) of GUI
 
-https://user-images.githubusercontent.com/46963154/137169434-9bc7c84f-262d-495a-abd2-b3e1d98905c6.mp4
-
-
-# Demo [video](https://player.vimeo.com/video/625297218) of local cloud deployment
-https://user-images.githubusercontent.com/46963154/137170709-17c4acda-1842-4fd5-9b56-8b5a1a5203b3.mp4
 
 # References
 
